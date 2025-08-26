@@ -1,0 +1,3 @@
+url,type,param,technique,payload,evidence,details
+http://127.0.0.1:8000/register.php,POST,password,union-based, UNION SELECT NULL -- ,cols=1 len=2398,
+http://127.0.0.1:8000/register.php,POST,confirm_password,union-based, UNION SELECT NULL -- ,cols=1 len=2398,

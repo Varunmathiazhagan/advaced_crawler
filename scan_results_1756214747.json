@@ -1,0 +1,20 @@
+[
+  {
+    "url": "http://127.0.0.1:8000/register.php",
+    "type": "POST",
+    "param": "password",
+    "technique": "union-based",
+    "payload": " UNION SELECT NULL -- ",
+    "evidence": "cols=1 len=2398",
+    "details": null
+  },
+  {
+    "url": "http://127.0.0.1:8000/register.php",
+    "type": "POST",
+    "param": "confirm_password",
+    "technique": "union-based",
+    "payload": " UNION SELECT NULL -- ",
+    "evidence": "cols=1 len=2398",
+    "details": null
+  }
+]
